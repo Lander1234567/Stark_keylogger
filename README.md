@@ -19,3 +19,5 @@ python app.py
 python keylogger.py
 ```
 so now you are all set.
+
+If there are problems, you can put an issue in this rep
