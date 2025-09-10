@@ -1,25 +1,21 @@
 # Stark_keylogger
 This is a simple keylogger for educational purposes only.
 
-HOw to use?
+How to use?
 
-first you need to download keylogger.py
+first you need to download keylogger.zip
 then you need to install the requirements
 ```bash
-pip install pynput threading requests
+pip install pynput threading requests, flask
 ```
-then download the app.py
-install the requirements
-```bash
-pip install flask
-```
-then download the templates
-make sure you have the app.py in the same folder then all the themplates
+Now you need to pack out everything
 
-Edit the keylogger python file with your flask id
-
-Now in command prompt go to the directory you downloaded this and type 
-```bash
+In the Keylogger file, you need to edit a little bit.
+YOu need to change http://Your_ID:5000/logs to the id from the app.py
+then you need to go to the dir where you downloaded it
+run the script
+```cmd
 python app.py
+python keylogger.py
 ```
-let's goo
+so now you are all set.
